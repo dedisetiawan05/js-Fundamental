@@ -28,9 +28,11 @@ console.log(bigFamily[1].nama);
 console.log(tanggal);
 
 //====================================================//
+//reguler function
 function helloWorld(nama) {
     console.log(`Hello ${nama}`);
 }
+//function dengan return
 helloWorld("Dedi Setiawan");
 function luasSegitiga(alas, tinggi) {
     var luas = alas * tinggi / 2;
@@ -39,3 +41,20 @@ function luasSegitiga(alas, tinggi) {
 var luas = luasSegitiga(10, 15);
 console.log(`Luas Segitiga = ${luas} `);
 
+//anonymous function
+var hi = function (nama) {
+    console.log(`Hello ${nama}`);
+};
+hi("Dedi Setiawan");
+//nested function
+//function dalam nested tidak bisa diakses diluar function induk
+function showMessage() {
+    function sayHello() {
+        return "Hallo";
+    }
+    function sayGreating() {
+        return " Selamat Sore";
+    }
+    return sayHello() + sayGreating();
+}
+console.log(showMessage());
