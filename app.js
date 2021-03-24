@@ -19,8 +19,10 @@ var bigFamily = [{
     jabatan: "Anak"
 }
 ];//object of array
+var tanggal = new Date();
 console.log(typeof name, typeof semester, typeof isFreelance);
 console.log(haven);
 console.log(family);
 console.log(bigFamily);
 console.log(bigFamily[1].nama);
+console.log(tanggal);
