@@ -26,3 +26,16 @@ console.log(family);
 console.log(bigFamily);
 console.log(bigFamily[1].nama);
 console.log(tanggal);
+
+//====================================================//
+function helloWorld(nama) {
+    console.log(`Hello ${nama}`);
+}
+helloWorld("Dedi Setiawan");
+function luasSegitiga(alas, tinggi) {
+    var luas = alas * tinggi / 2;
+    return luas;
+}
+var luas = luasSegitiga(10, 15);
+console.log(`Luas Segitiga = ${luas} `);
+
