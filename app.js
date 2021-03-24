@@ -7,16 +7,16 @@ var haven = ["mobil", "motor"];//array
 var family = {
     nama: "Anisa Nurul Hakim",
     gender: "Perempuan",
-    jabatan: "Istri"
+    jabatan: "Pacar"
 }//object
 var bigFamily = [{
     nama: "Anisa Nurul Hakim",
     gender: "Perempuan",
-    jabatan: "Istri"
+    jabatan: "Pacar"
 }, {
     nama: "Ahmed Huffadzulhaqq",
     gender: "Laki-laki",
-    jabatan: "Anak"
+    jabatan: "Adik"
 }
 ];//object of array
 var tanggal = new Date();
